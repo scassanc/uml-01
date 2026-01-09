@@ -36,5 +36,11 @@ public class Main {
 
     // 4. ¿Qué diferencias existen entre una asociación, una agregación y una
     // composición?
+    // - Asociación: Las clases pueden existir sin la necesidad de estar
+    // relacionadas (Profesor - Asignatura)
+    // - Agregación: Las clases pueden existir aunque es común que estén
+    // relacionados (Equipo - Jugador)
+    // - Composición: Las clases solo pueden existir si tienen relaciones (Pedido -
+    // Producto)
   }
 }
